@@ -53,11 +53,12 @@ h2 {
     margin-bottom: 20px;
 }
 
-#work-experience, #projects, #skills {
+#work-experience, #projects, #skills, #download {
     background-color: white;
     margin-bottom: 20px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
     padding: 20px;
+    border-radius: 8px;
 }
 
 .job h3 {
@@ -91,6 +92,21 @@ h2 {
     padding: 10px;
     text-align: center;
     border-radius: 5px;
+}
+
+#downloadCV {
+    background-color: #FFD700;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#downloadCV:hover {
+    background-color: #ffcc00;
 }
 
 footer {
@@ -130,19 +146,8 @@ footer .social-links a {
     header p {
         font-size: 1em;
     }
-    #downloadCV {
-    background-color: #FFD700;
-    color: #333;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1em;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
 
-#downloadCV:hover {
-    background-color: #ffcc00;
-}
-    
-}
+    #downloadCV {
+        font-size: 0.9em;
+        padding: 8px
+        
